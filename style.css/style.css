@@ -1,0 +1,106 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+.image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/Banner\ Image.png');
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    z-index: 2;
+}
+
+
+
+.header {
+    width: 100%;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 177px 500px;
+}
+
+.newyearone {
+    font-size: 32px;
+    padding-top: 177px;
+    padding-bottom: 16px;
+}
+
+.h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+.secone {
+    text-align: center;
+}
+
+.off {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+
+.off-about {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 16px 0 48px 0;
+}
+
+.sectwo {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+}
+
+/* offer section */
+.offersection {
+    display: flex;
+
+}
+
+.offersection {}
